@@ -47,10 +47,18 @@ def main():
             print("MINUS - null")
         elif c==";":
             print("SEMICOLON ; null")
+        #elif c=="=":
+        #    print("EQUAL = null")
+        #elif c=="==":
+        #    print("EQUAL_EQUAL == null")
         elif c=="=":
-            print("EQUAL = null")
-        elif c=="==":
-            print("EQUAL_EQUAL == null")
+            if file_contents[c+1]=="=":
+                print("EQUAL_EQUAL == null")
+            else:
+                print("EQUAL = null")
+
+                
+
         elif c=="!":
             print("BANG_EQUAL ! null")
         elif c=="<":
