@@ -43,7 +43,9 @@ def main():
         if c==",":
             print("COMMA , null")
         if c=="-":
-            print("MINUS - null")                  
+            print("MINUS - null")
+        if c==";":
+            print("SEMICOLON ; null")                      
                     
 
 
