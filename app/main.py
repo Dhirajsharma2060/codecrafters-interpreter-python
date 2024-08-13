@@ -27,7 +27,7 @@ def main():
 
     for c in file_contents:
         if c=="(":
-            print("Left_Paren (null")
+            print("Left_PAREN ( null")
         if c == ")":
             print("RIGHT_PAREN ) null") 
     print("EOF  null")           
