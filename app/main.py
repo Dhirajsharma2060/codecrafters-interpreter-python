@@ -37,7 +37,7 @@ def main():
         if c=="*":
             print("STAR * null")
         if c=="+":
-            print("PLUS * null")
+            print("PLUS + null")
         if c==".":
             print("DOT . null")
         if c==",":
