@@ -41,7 +41,9 @@ def main():
         if c==".":
             print("DOT . null")
         if c==",":
-            print("COMMA , null")              
+            print("COMMA , null")
+        if c=="-":
+            print("MINUS - null")                  
                     
 
 
